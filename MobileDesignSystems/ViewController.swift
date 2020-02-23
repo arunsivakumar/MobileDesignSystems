@@ -10,12 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var stackView: UIStackView!
     @IBOutlet weak var label1: UILabel!
     @IBOutlet weak var label2: UILabel!
     @IBOutlet weak var label3: UILabel!
     @IBOutlet weak var label4: UILabel!
     @IBOutlet weak var label5: UILabel!
     @IBOutlet weak var button1: UIButton!
+    @IBOutlet weak var button2: UIButton!
+    @IBOutlet weak var button3: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,12 +31,10 @@ class ViewController: UIViewController {
         label3.font(style: .headline)
         label4.font(style: .subtitle)
         label5.font(style: .title)
-        
         //TODO: adjust for dynamic type
-        
-        button1.titleLabel?.font(style: .title)
-        button1.backgroundColor = .custom(.clblue)
-        button1.setTitleColor(.custom(.clwhite), for: .normal)
+        button1.set(type: .primaryDark)
+        button2.set(type: .primaryLight)
+        button3.set(type: .secondary)
     }
    
 }

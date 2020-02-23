@@ -8,7 +8,7 @@
 
 import UIKit
 
-enum ColorType: String {
+enum Color: String {
     case clred
     case clgreen
     case clblue
@@ -16,7 +16,7 @@ enum ColorType: String {
 }
 
 extension UIColor {
-    static func custom(_ color: ColorType) -> UIColor {
+    static func custom(_ color: Color) -> UIColor {
         UIColor(named: color.rawValue) ?? UIColor.white
     }
 }
