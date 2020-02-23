@@ -47,6 +47,25 @@ class ViewController: UIViewController {
         label5.text = "footnote"
 
         bottomView.spacing = Spacing.get(.standard)
+        let margin = Spacing.get(.standard2)
+        
+        let constraints = [
+            
+            topView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
+            topView.leftAnchor.constraint(equalTo: view.leftAnchor, constant: margin),
+            topView.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -margin),
+                  
+            centerView.leftAnchor.constraint(equalTo: view.leftAnchor, constant: margin),
+            centerView.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -margin),
+                        
+            bottomView.leftAnchor.constraint(equalTo: view.leftAnchor, constant: margin),
+            bottomView.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -margin),
+            bottomView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor)
+
+           
+        ]
+
+        NSLayoutConstraint.activate(constraints)
         
     }
    
