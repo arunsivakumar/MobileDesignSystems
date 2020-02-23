@@ -62,7 +62,6 @@ class ViewController: UIViewController {
             bottomView.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -margin),
             bottomView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor)
 
-           
         ]
 
         NSLayoutConstraint.activate(constraints)

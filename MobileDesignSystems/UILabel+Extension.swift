@@ -64,6 +64,7 @@ extension UILabel {
         default:
             break
         }
+        // support for dynamic type
         let fontMetrics = UIFontMetrics(forTextStyle: style)
         self.font = fontMetrics.scaledFont(for: customFont)
         self.adjustsFontForContentSizeCategory = true
