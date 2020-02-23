@@ -19,6 +19,7 @@
 		F463A9C6240269FA00A71F96 /* ColorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F463A9C5240269FA00A71F96 /* ColorType.swift */; };
 		F463A9C82402703300A71F96 /* Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F463A9C72402703300A71F96 /* Spacing.swift */; };
 		F463A9CA2402724100A71F96 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F463A9C92402724100A71F96 /* UIButton+Extension.swift */; };
+		F463A9CC240288BA00A71F96 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F463A9CB240288BA00A71F96 /* UILabel+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		F463A9C5240269FA00A71F96 /* ColorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorType.swift; sourceTree = "<group>"; };
 		F463A9C72402703300A71F96 /* Spacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacing.swift; sourceTree = "<group>"; };
 		F463A9C92402724100A71F96 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		F463A9CB240288BA00A71F96 /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				F463A9C5240269FA00A71F96 /* ColorType.swift */,
 				F463A9C72402703300A71F96 /* Spacing.swift */,
 				F463A9C92402724100A71F96 /* UIButton+Extension.swift */,
+				F463A9CB240288BA00A71F96 /* UILabel+Extension.swift */,
 			);
 			path = MobileDesignSystems;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F463A9CC240288BA00A71F96 /* UILabel+Extension.swift in Sources */,
 				F463A9982402634700A71F96 /* ViewController.swift in Sources */,
 				F463A9942402634700A71F96 /* AppDelegate.swift in Sources */,
 				F463A9C42402637C00A71F96 /* FontStyle.swift in Sources */,

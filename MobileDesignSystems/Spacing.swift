@@ -6,14 +6,14 @@
 //  Copyright © 2020 Arun Sivakumar. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
-enum Spacing {
-    case leading
-    case trailing
-    case top
-    case bottom
-    case standard  // 8 px
-    case standard2  // 16 px
-    case standard3  // 32 px
+enum Spacing: CGFloat {
+    case standard = 8 // 8 px
+    case standard2 = 16  // 16 px
+    case standard3 = 32  // 32 px
+    
+    static func get(_ spacing: Spacing) -> CGFloat{
+        return spacing.rawValue
+    }
 }

@@ -10,7 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var stackView: UIStackView!
+    @IBOutlet weak var topView: UIStackView!
+    @IBOutlet weak var centerView: UIStackView!
+    @IBOutlet weak var bottomView: UIStackView!
+    
     @IBOutlet weak var label1: UILabel!
     @IBOutlet weak var label2: UILabel!
     @IBOutlet weak var label3: UILabel!
@@ -26,15 +29,25 @@ class ViewController: UIViewController {
     }
 
     private func setupUI() {
-        label1.font(style: .body)
-        label2.font(style: .caption)
-        label3.font(style: .headline)
-        label4.font(style: .subtitle)
-        label5.font(style: .title)
-        //TODO: adjust for dynamic type
-        button1.set(type: .primaryDark)
-        button2.set(type: .primaryLight)
-        button3.set(type: .secondary)
+        label1.set(style: .largeTitle)
+        label2.set(style: .title3)
+        
+        label3.set(style: .callout)
+        label4.set(style: .body)
+        label5.set(style: .footnote)
+        
+        button1.set(style: .primaryDark)
+        button2.set(style: .primaryLight)
+        button3.set(style: .secondary)
+        
+        label1.text = "Page Title"
+        label2.text = "Title"
+        label3.text = "callout"
+        label4.text = "This is all about mobile design system"
+        label5.text = "footnote"
+
+        bottomView.spacing = Spacing.get(.standard)
+        
     }
    
 }

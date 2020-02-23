@@ -8,7 +8,7 @@
 
 import UIKit
 
-enum ButtonTypeExtended {
+enum ButtonStyle {
     case primaryDark
     case primaryLight
     case secondary
@@ -29,30 +29,30 @@ enum ButtonTypeExtended {
 
 extension UIButton {
     
-    func set(type: ButtonTypeExtended) {
-        switch type {
+    func set(style: ButtonStyle) {
+        switch style {
         case .primaryDark:
-            self.heightAnchor.constraint(equalToConstant: type.height).isActive = true
-            self.contentEdgeInsets = type.edgeInset
-            self.titleLabel?.font(style: .title)
-            self.backgroundColor = .custom(.clblue)
-            self.setTitleColor(.custom(.clwhite), for: .normal)
-            self.makeRoundedCorner(height: type.height)
+            self.heightAnchor.constraint(equalToConstant: style.height).isActive = true
+            self.contentEdgeInsets = style.edgeInset
+            self.titleLabel?.font  = .fontRegular(size: 40)
+            self.backgroundColor   = .color(type: .clblue)
+            self.setTitleColor(.color(type: .clwhite), for: .normal)
+            self.makeRoundedCorner(height: style.height)
         case .primaryLight:
-            self.heightAnchor.constraint(equalToConstant: type.height).isActive = true
-            self.contentEdgeInsets = type.edgeInset
-            self.titleLabel?.font(style: .title)
-            self.backgroundColor = .custom(.clwhite)
-            self.setTitleColor(.custom(.clblue), for: .normal)
-            self.layer.borderColor = UIColor.custom(.clblue).cgColor
+            self.heightAnchor.constraint(equalToConstant: style.height).isActive = true
+            self.contentEdgeInsets = style.edgeInset
+            self.titleLabel?.font  = .fontRegular(size: 40)
+            self.backgroundColor   = .color(type: .clwhite)
+            self.setTitleColor(.color(type: .clblue), for: .normal)
+            self.layer.borderColor = UIColor.color(type: .clblue).cgColor
             self.layer.borderWidth = 2.0
-            self.makeRoundedCorner(height: type.height)
+            self.makeRoundedCorner(height: style.height)
         case .secondary:
-            self.heightAnchor.constraint(equalToConstant: type.height).isActive = true
-            self.contentEdgeInsets = type.edgeInset
-            self.titleLabel?.font(style: .body)
-            self.backgroundColor = .custom(.clwhite)
-            self.setTitleColor(.custom(.clblue), for: .normal)
+            self.heightAnchor.constraint(equalToConstant: style.height).isActive = true
+            self.contentEdgeInsets = style.edgeInset
+            self.titleLabel?.font  = .fontRegular(size: 20)
+            self.backgroundColor   = .color(type: .clwhite)
+            self.setTitleColor(.color(type: .clblue), for: .normal)
         }
     }
 }
