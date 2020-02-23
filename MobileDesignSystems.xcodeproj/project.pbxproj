@@ -16,6 +16,7 @@
 		F463A9AB2402634A00A71F96 /* MobileDesignSystemsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F463A9AA2402634A00A71F96 /* MobileDesignSystemsTests.swift */; };
 		F463A9B62402634A00A71F96 /* MobileDesignSystemsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F463A9B52402634A00A71F96 /* MobileDesignSystemsUITests.swift */; };
 		F463A9C42402637C00A71F96 /* FontStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F463A9C32402637C00A71F96 /* FontStyle.swift */; };
+		F463A9C6240269FA00A71F96 /* ColorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F463A9C5240269FA00A71F96 /* ColorType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		F463A9B52402634A00A71F96 /* MobileDesignSystemsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileDesignSystemsUITests.swift; sourceTree = "<group>"; };
 		F463A9B72402634A00A71F96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F463A9C32402637C00A71F96 /* FontStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontStyle.swift; sourceTree = "<group>"; };
+		F463A9C5240269FA00A71F96 /* ColorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				F463A99E2402634A00A71F96 /* LaunchScreen.storyboard */,
 				F463A9A12402634A00A71F96 /* Info.plist */,
 				F463A9C32402637C00A71F96 /* FontStyle.swift */,
+				F463A9C5240269FA00A71F96 /* ColorType.swift */,
 			);
 			path = MobileDesignSystems;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				F463A9982402634700A71F96 /* ViewController.swift in Sources */,
 				F463A9942402634700A71F96 /* AppDelegate.swift in Sources */,
 				F463A9C42402637C00A71F96 /* FontStyle.swift in Sources */,
+				F463A9C6240269FA00A71F96 /* ColorType.swift in Sources */,
 				F463A9962402634700A71F96 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

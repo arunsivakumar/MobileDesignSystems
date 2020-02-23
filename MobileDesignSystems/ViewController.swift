@@ -32,8 +32,8 @@ class ViewController: UIViewController {
         //TODO: adjust for dynamic type
         
         button1.titleLabel?.font(style: .title)
-        
-        
+        button1.backgroundColor = .custom(.clblue)
+        button1.setTitleColor(.custom(.clwhite), for: .normal)
     }
    
 }
