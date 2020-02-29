@@ -16,9 +16,9 @@ MobileDesignSystems
 
 ### Screenshots:
 
-![SCREENSHOT 1 ](https://github.com/arunsivakumar/MobileDesignSystems/Screenshots/screenshot1.png)
+![SCREENSHOT 1](https://github.com/arunsivakumar/MobileDesignSystems/blob/master/Screenshots/screenshot1.png)
 
-![SCREENSHOT 2](https://github.com/arunsivakumar/MobileDesignSystems/Screenshots/screenshot2.png)
+![SCREENSHOT 2](https://github.com/arunsivakumar/MobileDesignSystems/blob/master/Screenshots/screenshot2.png)
 
 ### References:
 
