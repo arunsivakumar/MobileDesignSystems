@@ -6,10 +6,10 @@ MobileDesignSystems
 - [x] Fonts  
 - [x] Labels  
 - [x] Buttons  
-- [x] Dynamic sizes  
+- [x] Dynamic Type support  
 - [x] Spacing  
 - [x] Auto-layout using spacing  
-- [ ] Views Types
+- [ ] Custom Views Types
 - [ ] Protocol-oriented-views
 - [ ] Build a component  
 
