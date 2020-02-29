@@ -14,6 +14,12 @@ MobileDesignSystems
 - [ ] Build a component  
 
 
+### Screenshots:
+
+![SCREENSHOT 1 ](https://github.com/arunsivakumar/MobileDesignSystems/Screenshots/screenshot1.png)
+
+![SCREENSHOT 2](https://github.com/arunsivakumar/MobileDesignSystems/Screenshots/screenshot2.png)
+
 ### References:
 
 Building a Mobile Design System:  
